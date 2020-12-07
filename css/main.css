@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Nunito-Regular;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+@font-face {
+    font-family: Nunito-Bold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+body{
+    margin: 0;
+}
+#logo{
+    max-width: 1920px;
+    text-align: center;
+
+    position: absolute;
+    left: 424px;
+    top: 20px;
+}
+
+.logo-div{
+    font-family: Nunito-Regular, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    top: 45px;
+ }
+.logo-span{
+    color: #DD3142;
+    font-family: Nunito-Regular, sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+}
+#block-container{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#title{
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#describe{
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    max-width: 496px;
+    margin-bottom: 42px;
+}
+.contact{
+border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    width:452px;
+    border-bottom: 1px solid #c6c6c4;;
+    outline: 0;
+    display: block;
+    margin-bottom: 20px;
+
+    line-height: 27px;
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 20px;
+    color: #323232;
+}
+.agree{
+    margin-top: 10px;
+    font-family: Nunito-Bold,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-left: 10px;
+}
+.confirm{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#sign{
+    width: 210px;
+    height: 70px;
+    left: 547px;
+    top: 855px;
+    background: #DD3142;
+    border-radius: 40px;
+  display: block;
+    font-family: Nunito-Bold,sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border-color: transparent;
+    margin: 0 auto 44px auto;
+}
+#foto-block{
+    background-color: #F8F8FA;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    height: 1021px;
+
+}
+.contact-title{
+    font-family: Nunito-Bold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+.cosmos{
+    height: 530px;
+    padding-top: 198px;
+}
+#text-block{
+    padding-top: 112px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.account{
+font-family: Nunito-Bold,sans-serif;
+font-size: 16px;
+line-height: 27px;
+color: #636363;
+text-decoration: none;
+margin: 0 auto;
+
+}
+#log{
+text-align: center;
+}
+
